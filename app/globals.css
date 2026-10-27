@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Reusable component classes so pages stay short */
+@layer components {
+  .card { @apply rounded-lg border border-slate-200 bg-white p-4; }
+  .inp  { @apply w-full rounded border border-slate-300 px-2 py-1.5 text-sm focus:outline-none focus:ring-2 focus:ring-teal-600; }
+  .btn  { @apply rounded bg-teal-700 px-3 py-1.5 text-sm font-medium text-white hover:bg-teal-800; }
+  .btn2 { @apply rounded border border-slate-300 px-3 py-1.5 text-sm hover:bg-slate-100; }
+  .lbl  { @apply mb-1 block text-xs font-medium text-slate-600; }
+}
+/* Hide navigation when printing so the PDF only has the report */
+@media print { aside, .no-print { display: none !important; } }

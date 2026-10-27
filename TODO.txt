@@ -1,0 +1,47 @@
+Phase 1 — Project setup (15–20 min)
+[ ] Create a Next.js project with TypeScript and App Router
+[ ] Set up Tailwind CSS and the base layout
+[ ] Create the sidebar/navigation and dashboard page
+[ ] Define TypeScript interfaces for trips, activities, expenses, and transport
+
+Phase 2 — Holiday itinerary (35–45 min)
+[ ] Create a trip with destination, start date, end date, and budget
+[ ] Add activities with date, start time, end time, location, and notes
+[ ] Add activity categories such as sightseeing, food, shopping, and accommodation
+[ ] Implement create, edit, delete, and date-based filtering
+[ ] Display a daily itinerary in chronological order
+
+Phase 3 — Budget management (25–35 min)
+[ ] Set the total trip budget
+[ ] Add expense categories such as transport, food, accommodation, and activities
+[ ] Record planned cost and actual expense for each item
+[ ] Calculate total planned costs, actual expenses, and remaining budget
+[ ] Display spending by category and highlight budget overruns
+
+Phase 4 — Calendar (20–30 min)
+[ ] Build a monthly calendar view
+[ ] Display activities on their scheduled dates
+[ ] Allow users to select a date to view or add activities
+[ ] Mark Malaysian public holidays
+[ ] Account for state-specific public holidays where applicable
+
+Phase 5 — Transport and road tracking (20–30 min)
+[ ] Record transport mode, departure time, and estimated fare
+[ ] Add origin and destination fields
+[ ] Display estimated distance and travel duration
+[ ] Add a map or external navigation link
+[ ] Integrate a routing API for actual road distance
+
+Phase 6 — Saving and exporting (20–30 min)
+[ ] Save and restore trip data using localStorage
+[ ] Export itinerary and expenses to CSV or Excel-compatible format
+[ ] Generate a printable PDF itinerary and budget report
+[ ] Verify exported dates, times, categories, and totals
+
+Phase 7 — Testing and polish (15–20 min)
+[ ] Test adding, editing, and deleting activities and expenses
+[ ] Validate dates, times, and numeric inputs
+[ ] Test budget calculations and empty states
+[ ] Improve responsive layout for mobile and desktop
+[ ] Write a README and publish the project to GitHub
+
